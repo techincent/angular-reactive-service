@@ -1,6 +1,6 @@
 # AngularReactiveService
 
-Checkout Angular reactive service explanation: [https://techincent.com/implement-angular-product-details-page-with-reactive-service](https://techincent.com/implement-angular-product-details-page-with-reactive-service))
+Checkout Angular reactive service explanation: [https://techincent.com/implement-angular-product-details-page-with-reactive-service](https://techincent.com/implement-angular-product-details-page-with-reactive-service)
 
 ## Development server
 
