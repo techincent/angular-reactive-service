@@ -1,6 +1,6 @@
 # AngularReactiveService
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+Checkout Angular reactive service explanation: [https://github.com/techincent/angular-reactive-service](https://github.com/techincent/angular-reactive-service)
 
 ## Development server
 
