@@ -1,0 +1,8 @@
+<ul *ngIf="(products$ | async) as products;else empty">
+  <li *ngFor="let product of products">
+    <a [routerLink]="['/' + product?.slug]">{{ product?.title }}</a>
+  </li>
+</ul>
+<ng-template #empty>
+  <h3>Loading ...</h3>
+</ng-template>

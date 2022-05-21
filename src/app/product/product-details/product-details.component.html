@@ -1,0 +1,19 @@
+<div 
+  *ngIf="(product$ | async) as productObj;else empty"
+  style="display: grid;grid-template-columns: repeat(3, minmax(0, 1fr));"
+>
+  <app-product-list></app-product-list>
+
+  <div style="grid-column: span 2/span 2;">
+    <h1>{{productObj?.title}}</h1>
+    <hr>
+    <p><strong>Price:</strong> {{productObj?.price}}</p>
+    <p><strong>Created At:</strong> {{productObj?.createdAt | date:"medium"}}</p>
+    <p><strong>Created By:</strong> {{productObj?.createdBy?.name}}</p>
+    <p><strong>Category:</strong> {{productObj?.category?.name}}</p>
+  </div>
+</div>
+
+<ng-template #empty>
+  <h3>Loading ...</h3>
+</ng-template>
